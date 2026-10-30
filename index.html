@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Продажа оптики в Сочи. Медицинские очки, солнцезащитная оптика, контактные линзы и аксессуары. Изготовление за 1 день на станках Essilor (Франция)." />
+  <meta name="yandex-verification" content="e36582437b7d08f8" />
+  <meta name="google-site-verification" content="AXEXJ3C3w90MUyL9nkMXekuB9zqPJvkbAnua6-PL3ko" />
+  <link rel="canonical" href="https://www.xn--80agnisgv3h.xn--p1ai/" />
+  <link rel="icon" href="./images/photo_2024-04-24_15-11-32_1_0.png" type="image/png" />
+  <title>Продажа оптики в Сочи | Оптика Юг</title>
+  <script src="./js/tailwindcss.min.js"></script>
+  <script>if(typeof tailwind === 'undefined'){document.write('<script src="https://cdn.tailwindcss.com"><\/script>')}</script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'Inter', 'system-ui', 'sans-serif'],
+          },
+          colors: {
+            slate: {
+              950: '#0B1120',
+            }
+          },
+          animation: {
+            'pulse-dot': 'pulse 2s cubic-bezier(0.4,0,0.6,1) infinite',
+            'float': 'float 6s ease-in-out infinite',
+          },
+          keyframes: {
+            float: {
+              '0%,100%': { transform: 'translateY(0)' },
+              '50%': { transform: 'translateY(-8px)' },
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script src="./js/lucide.min.js"></script>
+  <script>if(!window.lucide){document.write('<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"><\/script>')}</script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 90px; }
+    body { font-family: 'Plus Jakarta Sans', Inter, system-ui, sans-serif; background: #F8FAFC; color: #0F172A; overflow-x: hidden; -webkit-font-smoothing: antialiased; }
+    /* Ambient blobs */
+    .blob { position: absolute; border-radius: 50%; filter: blur(80px); pointer-events: none; z-index: 0; }
+    /* Glass card */
+    .glass { background: rgba(255,255,255,0.75); backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px); border: 1px solid rgba(255,255,255,0.65); }
+    /* No scrollbar utility */
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    /* Mobile nav overlay */
+    #mobile-menu { transition: opacity 0.3s ease, transform 0.3s ease; }
+    #mobile-menu.hidden { opacity: 0; pointer-events: none; transform: translateY(-10px); }
+    #mobile-menu.open { opacity: 1; pointer-events: auto; transform: translateY(0); display: flex !important; }
+    /* Tab active state */
+    .tab-btn.active { background: #0F172A; color: #fff; }
+    .tab-btn { transition: all 0.25s ease; }
+    .tab-panel { display: none; }
+    .tab-panel.active { display: flex; }
+    /* Vision tab card image */
+    .vision-img { object-fit: cover; width: 100%; height: 100%; border-radius: 1.5rem; }
+    /* Modal */
+    .modal-overlay { position: fixed; inset: 0; z-index: 9999; background: rgba(15,23,42,0.55); backdrop-filter: blur(6px); display: none; align-items: center; justify-content: center; padding: 1rem; }
+    .modal-overlay.open { display: flex; }
+    /* Checkmark animation */
+    .checkmark-circle { stroke: #16a34a; stroke-width: 2; stroke-dasharray: 166; stroke-dashoffset: 166; animation: stroke 0.6s cubic-bezier(0.65,0,0.45,1) forwards; }
+    .checkmark-path { stroke: #16a34a; stroke-width: 2.5; stroke-dasharray: 48; stroke-dashoffset: 48; animation: stroke 0.4s cubic-bezier(0.65,0,0.45,1) 0.5s forwards; }
+    @keyframes stroke { to { stroke-dashoffset: 0; } }
+    /* Burger lines */
+    .burger-line { display: block; width: 22px; height: 2px; background: #0F172A; border-radius: 2px; transition: all 0.28s ease; }
+    #burger-btn.open .burger-line:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    #burger-btn.open .burger-line:nth-child(2) { opacity: 0; }
+    #burger-btn.open .burger-line:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+    /* Hover arrow rotate */
+    .group:hover .arrow-icon { transform: translateX(4px); }
+    .arrow-icon { transition: transform 0.25s ease; }
+    /* Badge chip hover */
+    .catalog-card:hover .cta-circle { background: #0284C7; color: #fff; transform: rotate(45deg); }
+    .cta-circle { transition: all 0.3s ease; }
+    /* Floating header scroll shadow */
+    .header-scrolled { box-shadow: 0 8px 32px rgba(15,23,42,0.08); }
+    /* Input focus glow */
+    input:focus, textarea:focus { outline: none; border-color: #0284C7 !important; box-shadow: 0 0 0 3px rgba(2,132,199,0.12); }
+    /* Form submit loading */
+    .btn-loading { opacity: 0.7; cursor: not-allowed; }
+    /* Partners strip grayscale */
+    .partner-logo { filter: grayscale(1); opacity: 0.55; transition: all 0.3s ease; }
+    .partner-logo:hover { filter: grayscale(0); opacity: 1; }
+    /* Responsive tweaks */
+    @media (max-width: 768px) {
+      .hero-grid { grid-template-columns: 1fr !important; }
+    }
+  </style>
+</head>
+<body class="bg-[#F8FAFC]">
+<header id="site-header" class="fixed top-3 inset-x-3 z-50 max-w-7xl mx-auto">
+  <div class="glass rounded-full px-5 py-3 flex items-center justify-between gap-4 transition-all duration-300" id="header-inner">
+        <a href="#" class="flex items-center gap-3 flex-shrink-0 group">
+      <img src="./images/photo_2024-04-24_15-11-32_1.png" alt="Оптика Юг" class="h-8 w-auto object-contain transition-transform duration-300 group-hover:scale-105" />
+      <div class="hidden sm:block">
+        <div class="text-xs font-600 text-slate-500 leading-none">Сочи • Курортный пр-т, 50</div>
+      </div>
+    </a>
+        <nav class="hidden lg:flex items-center gap-6">
+      <a href="#catalog" class="text-sm font-600 text-slate-600 hover:text-slate-900 transition-colors duration-200 relative group">
+        Каталог
+        <span class="absolute -bottom-0.5 left-0 h-px bg-sky-500 w-0 group-hover:w-full transition-all duration-300"></span>
+      </a>
+      <a href="#services" class="text-sm font-600 text-slate-600 hover:text-slate-900 transition-colors duration-200 relative group">
+        Услуги
+        <span class="absolute -bottom-0.5 left-0 h-px bg-sky-500 w-0 group-hover:w-full transition-all duration-300"></span>
+      </a>
+      <a href="#promos" class="text-sm font-600 text-slate-600 hover:text-slate-900 transition-colors duration-200 relative group">
+        Акции
+        <span class="absolute -bottom-0.5 left-0 h-px bg-sky-500 w-0 group-hover:w-full transition-all duration-300"></span>
+      </a>
+      <a href="#vision" class="text-sm font-600 text-slate-600 hover:text-slate-900 transition-colors duration-200 relative group">
+        О зрении
+        <span class="absolute -bottom-0.5 left-0 h-px bg-sky-500 w-0 group-hover:w-full transition-all duration-300"></span>
+      </a>
+      <a href="#contacts" class="text-sm font-600 text-slate-600 hover:text-slate-900 transition-colors duration-200 relative group">
+        Контакты
+        <span class="absolute -bottom-0.5 left-0 h-px bg-sky-500 w-0 group-hover:w-full transition-all duration-300"></span>
+      </a>
+    </nav>
+        <div class="hidden lg:flex items-center gap-3">
+      <a href="tel:+79884036442" class="flex items-center gap-2 text-sm font-700 text-slate-700 hover:text-sky-600 transition-colors duration-200">
+        <i data-lucide="phone" class="w-4 h-4"></i>
+        <span>+7 (988) 403-64-42</span>
+      </a>
+      <button onclick="openCallbackModal()" class="bg-slate-900 hover:bg-sky-600 text-white text-sm font-700 px-5 py-2.5 rounded-full transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-sky-500/25">
+        Обратный вызов
+      </button>
+    </div>
+        <button id="burger-btn" class="lg:hidden flex flex-col gap-[5px] p-2 -mr-1" aria-label="Меню" aria-expanded="false">
+      <span class="burger-line"></span>
+      <span class="burger-line"></span>
+      <span class="burger-line"></span>
+    </button>
+  </div>
+    <div id="mobile-menu" class="hidden flex-col glass mt-2 rounded-3xl p-6 gap-4">
+    <nav class="flex flex-col gap-1">
+      <a href="#catalog" class="mobile-nav-link text-base font-600 text-slate-700 px-4 py-3 rounded-2xl hover:bg-slate-50 transition-colors">Каталог</a>
+      <a href="#services" class="mobile-nav-link text-base font-600 text-slate-700 px-4 py-3 rounded-2xl hover:bg-slate-50 transition-colors">Услуги</a>
+      <a href="#promos" class="mobile-nav-link text-base font-600 text-slate-700 px-4 py-3 rounded-2xl hover:bg-slate-50 transition-colors">Акции</a>
+      <a href="#vision" class="mobile-nav-link text-base font-600 text-slate-700 px-4 py-3 rounded-2xl hover:bg-slate-50 transition-colors">О зрении</a>
+      <a href="#contacts" class="mobile-nav-link text-base font-600 text-slate-700 px-4 py-3 rounded-2xl hover:bg-slate-50 transition-colors">Контакты</a>
+    </nav>
+    <div class="border-t border-slate-100 pt-4 flex flex-col gap-3">
+      <a href="tel:+79884036442" class="flex items-center gap-3 px-4 py-3 rounded-2xl bg-slate-50 text-slate-800 font-600">
+        <i data-lucide="phone" class="w-5 h-5 text-sky-600"></i>
+        +7 (988) 403-64-42 <span class="text-xs text-slate-500 ml-auto">Оптика</span>
+      </a>
+      <a href="tel:+79951239686" class="flex items-center gap-3 px-4 py-3 rounded-2xl bg-slate-50 text-slate-800 font-600">
+        <i data-lucide="phone" class="w-5 h-5 text-sky-600"></i>
+        +7 (995) 123-96-86 <span class="text-xs text-slate-500 ml-auto">Мастер</span>
+      </a>
+      <button onclick="openCallbackModal()" class="mobile-nav-link w-full bg-slate-900 text-white font-700 px-5 py-3.5 rounded-2xl hover:bg-sky-600 transition-all duration-300">
+        Обратный вызов
+      </button>
+    </div>
+  </div>
+</header>
+<section id="hero" class="relative min-h-screen flex items-center pt-28 pb-16 px-4 overflow-hidden">
+    <div class="blob w-[600px] h-[600px] bg-sky-100 opacity-50 top-[-100px] right-[-200px]"></div>
+  <div class="blob w-[400px] h-[400px] bg-amber-100 opacity-40 bottom-[-50px] left-[-100px]"></div>
+  <div class="relative z-10 max-w-7xl mx-auto w-full grid hero-grid lg:grid-cols-12 gap-10 lg:gap-14 xl:gap-16 items-center">
+    <div class="lg:col-span-6 flex flex-col gap-7">
+      <div class="inline-flex items-center gap-2.5 bg-white border border-slate-200 shadow-sm px-4 py-2 rounded-full w-fit">
+        <span class="w-2 h-2 bg-sky-500 rounded-full animate-pulse"></span>
+        <span class="text-sm font-600 text-slate-600">Коллекция 2026 • Премиальная оптика в Сочи</span>
+      </div>
+      <h1 class="text-5xl lg:text-6xl xl:text-7xl font-extrabold leading-[1.08] tracking-tight text-slate-900">
+        Продажа<br />
+        <span class="bg-gradient-to-r from-sky-600 to-sky-400 bg-clip-text text-transparent">оптики</span><br />
+        в Сочи
+      </h1>
+      <div class="flex flex-wrap gap-2.5">
+        <div class="flex items-center gap-2 bg-white shadow-sm border border-slate-100 px-4 py-2.5 rounded-full text-sm font-600 text-slate-700">
+          <i data-lucide="glasses" class="w-4 h-4 text-sky-500"></i>
+          Медицинские очки
+        </div>
+        <div class="flex items-center gap-2 bg-white shadow-sm border border-slate-100 px-4 py-2.5 rounded-full text-sm font-600 text-slate-700">
+          <i data-lucide="sun" class="w-4 h-4 text-amber-500"></i>
+          Солнцезащитная оптика
+        </div>
+        <div class="flex items-center gap-2 bg-white shadow-sm border border-slate-100 px-4 py-2.5 rounded-full text-sm font-600 text-slate-700">
+          <i data-lucide="eye" class="w-4 h-4 text-sky-500"></i>
+          Контактные линзы
+        </div>
+        <div class="flex items-center gap-2 bg-white shadow-sm border border-slate-100 px-4 py-2.5 rounded-full text-sm font-600 text-slate-700">
+          <i data-lucide="package" class="w-4 h-4 text-slate-400"></i>
+          Аксессуары
+        </div>
+      </div>
+      <div class="flex flex-wrap items-center gap-4">
+        <button onclick="openCallbackModal()" class="group flex items-center gap-3 bg-sky-600 hover:bg-sky-700 text-white font-700 text-base px-7 py-4 rounded-full transition-all duration-300 hover:-translate-y-0.5 shadow-lg shadow-sky-500/30 hover:shadow-sky-500/45">
+          Оставить заявку
+          <i data-lucide="arrow-right" class="w-5 h-5 arrow-icon"></i>
+        </button>
+        <a href="tel:+79884036442" class="flex items-center gap-2.5 text-slate-600 hover:text-sky-600 font-600 transition-colors duration-200">
+          <div class="w-11 h-11 rounded-full bg-white shadow-sm border border-slate-100 flex items-center justify-center">
+            <i data-lucide="phone-call" class="w-5 h-5"></i>
+          </div>
+          <div>
+            <div class="text-xs text-slate-400 leading-none mb-0.5">Позвонить</div>
+            <div class="text-sm font-700">+7 (988) 403-64-42</div>
+          </div>
+        </a>
+      </div>
+      <div class="flex items-center gap-8 pt-2">
+        <div>
+          <div class="text-2xl font-800 text-slate-900">5+</div>
+          <div class="text-xs text-slate-500 font-500">лет в Сочи</div>
+        </div>
+        <div class="w-px h-8 bg-slate-200"></div>
+        <div>
+          <div class="text-2xl font-800 text-slate-900">1 день</div>
+          <div class="text-xs text-slate-500 font-500">изготовление</div>
+        </div>
+        <div class="w-px h-8 bg-slate-200"></div>
+        <div>
+          <div class="text-2xl font-800 text-slate-900">1000+</div>
+          <div class="text-xs text-slate-500 font-500">довольных клиентов</div>
+        </div>
+      </div>
+    </div>
+    <div class="lg:col-span-6 hero-image-col relative mt-8 lg:mt-0 w-full max-w-xl lg:max-w-none mx-auto">
+      <div class="relative rounded-3xl lg:rounded-[2.5rem] overflow-hidden shadow-2xl border border-white/80 w-full aspect-[4/3] sm:aspect-[16/11] lg:h-[540px] xl:h-[600px] bg-slate-100">
+        <img src="./images/AdobeStock_317116275_1_0.png.jpg" alt="Оптика Юг — продажа очков в Сочи" class="w-full h-full object-cover object-[86%_center]" />
+        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/20 via-transparent to-transparent pointer-events-none"></div>
+      </div>
+      <div class="animate-float absolute -bottom-5 left-4 sm:-bottom-6 sm:-left-6 lg:-bottom-6 lg:-left-8 z-20 glass rounded-2xl p-4 shadow-[0_20px_45px_rgba(15,23,42,0.14)] border border-white/90 bg-white/95 backdrop-blur-xl max-w-[270px] sm:max-w-[290px]">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 bg-gradient-to-br from-sky-500 to-sky-700 rounded-xl flex items-center justify-center flex-shrink-0 shadow-md shadow-sky-500/25">
+            <i data-lucide="zap" class="w-5 h-5 text-white"></i>
+          </div>
+          <div>
+            <div class="text-xs sm:text-sm font-800 text-slate-900 leading-tight">Изготовление за 1 день</div>
+            <div class="text-[11px] sm:text-xs text-slate-500 font-medium mt-0.5 leading-snug">Станки Essilor (Франция)</div>
+          </div>
+        </div>
+      </div>
+      <div class="absolute -top-3 right-4 sm:-top-4 sm:-right-4 lg:-top-5 lg:-right-6 z-20 bg-white/95 backdrop-blur-xl border border-amber-200/90 shadow-[0_15px_35px_rgba(217,119,6,0.15)] rounded-full px-4 py-2 flex items-center gap-2">
+        <span class="w-2 h-2 rounded-full bg-amber-500 animate-pulse"></span>
+        <span class="text-xs sm:text-sm font-800 text-amber-900 tracking-wide">Хит сезона</span>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="catalog" class="py-24 px-4">
+  <div class="max-w-7xl mx-auto">
+        <div class="flex flex-col items-center text-center mb-14">
+      <div class="inline-flex items-center gap-2 bg-sky-50 border border-sky-100 px-4 py-2 rounded-full mb-5">
+        <span class="w-2 h-2 bg-sky-500 rounded-full animate-pulse"></span>
+        <span class="text-sm font-600 text-sky-700">Каталог оптики</span>
+      </div>
+      <h2 class="text-4xl lg:text-5xl font-extrabold tracking-tight text-slate-900 mb-4">Каталог оптики и аксессуаров</h2>
+      <p class="text-slate-500 text-lg max-w-xl leading-relaxed">Широкий выбор оправ и линз ведущих европейских брендов для каждого члена семьи</p>
+    </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+            <a href="https://vk.ru/opticasouth" target="_blank" rel="noopener" class="catalog-card group relative rounded-3xl overflow-hidden border border-slate-100 bg-white hover:border-sky-200 shadow-[0_20px_50px_rgba(15,23,42,0.05)] hover:shadow-[0_25px_60px_rgba(2,132,199,0.12)] transition-all duration-500 hover:-translate-y-1 aspect-[4/5] flex flex-col justify-end">
+        <div class="absolute inset-0">
+          <img src="./images/catalog_men.jpg" alt="Очки мужские" class="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105" />
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/30 to-transparent"></div>
+        </div>
+        <div class="relative p-7 flex flex-col gap-3">
+          <div class="flex gap-2 flex-wrap">
+            <span class="text-xs font-700 uppercase tracking-wider bg-white/15 backdrop-blur-sm text-white px-3 py-1.5 rounded-full border border-white/20">Для мужчин</span>
+            <span class="text-xs font-700 bg-amber-400/20 text-amber-200 backdrop-blur-sm px-3 py-1.5 rounded-full border border-amber-400/20">Коллекции брендов</span>
+          </div>
+          <h3 class="text-2xl font-800 text-white">Очки мужские</h3>
+          <p class="text-sm text-white/70 leading-relaxed">Классические, деловые и спортивные оправы, титановые конструкции и солнцезащитные очки</p>
+          <div class="flex items-center gap-3 mt-1">
+            <div class="cta-circle w-9 h-9 rounded-full border border-white/30 bg-white/10 flex items-center justify-center">
+              <i data-lucide="arrow-up-right" class="w-4 h-4 text-white"></i>
+            </div>
+            <span class="text-sm font-600 text-white/80">Смотреть в ВКонтакте</span>
+          </div>
+        </div>
+      </a>
+            <a href="https://vk.ru/opticasouth" target="_blank" rel="noopener" class="catalog-card group relative rounded-3xl overflow-hidden border border-slate-100 bg-white hover:border-sky-200 shadow-[0_20px_50px_rgba(15,23,42,0.05)] hover:shadow-[0_25px_60px_rgba(2,132,199,0.12)] transition-all duration-500 hover:-translate-y-1 aspect-[4/5] flex flex-col justify-end">
+        <div class="absolute inset-0">
+          <img src="./images/catalog_women.jpg" alt="Очки женские" class="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105" />
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/30 to-transparent"></div>
+        </div>
+        <div class="relative p-7 flex flex-col gap-3">
+          <div class="flex gap-2 flex-wrap">
+            <span class="text-xs font-700 uppercase tracking-wider bg-white/15 backdrop-blur-sm text-white px-3 py-1.5 rounded-full border border-white/20">Хит сезона</span>
+            <span class="text-xs font-700 bg-pink-400/20 text-pink-200 backdrop-blur-sm px-3 py-1.5 rounded-full border border-pink-400/20">Элегантность и стиль</span>
+          </div>
+          <h3 class="text-2xl font-800 text-white">Очки женские</h3>
+          <p class="text-sm text-white/70 leading-relaxed">Трендовые геометрические формы, кошачий глаз, безободковые оправы и люксовая защита от UV</p>
+          <div class="flex items-center gap-3 mt-1">
+            <div class="cta-circle w-9 h-9 rounded-full border border-white/30 bg-white/10 flex items-center justify-center">
+              <i data-lucide="arrow-up-right" class="w-4 h-4 text-white"></i>
+            </div>
+            <span class="text-sm font-600 text-white/80">Смотреть в ВКонтакте</span>
+          </div>
+        </div>
+      </a>
+            <a href="https://vk.ru/opticasouth" target="_blank" rel="noopener" class="catalog-card group relative rounded-3xl overflow-hidden border border-slate-100 bg-white hover:border-sky-200 shadow-[0_20px_50px_rgba(15,23,42,0.05)] hover:shadow-[0_25px_60px_rgba(2,132,199,0.12)] transition-all duration-500 hover:-translate-y-1 aspect-[4/5] flex flex-col justify-end">
+        <div class="absolute inset-0">
+          <img src="./images/catalog_kids.jpg" alt="Очки детские" class="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105" />
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/30 to-transparent"></div>
+        </div>
+        <div class="relative p-7 flex flex-col gap-3">
+          <div class="flex gap-2 flex-wrap">
+            <span class="text-xs font-700 uppercase tracking-wider bg-white/15 backdrop-blur-sm text-white px-3 py-1.5 rounded-full border border-white/20">Забота и надёжность</span>
+            <span class="text-xs font-700 bg-green-400/20 text-green-200 backdrop-blur-sm px-3 py-1.5 rounded-full border border-green-400/20">Для детей</span>
+          </div>
+          <h3 class="text-2xl font-800 text-white">Очки детские</h3>
+          <p class="text-sm text-white/70 leading-relaxed">Гипоаллергенные, гибкие и сверхпрочные оправы, устойчивые к активным детским играм</p>
+          <div class="flex items-center gap-3 mt-1">
+            <div class="cta-circle w-9 h-9 rounded-full border border-white/30 bg-white/10 flex items-center justify-center">
+              <i data-lucide="arrow-up-right" class="w-4 h-4 text-white"></i>
+            </div>
+            <span class="text-sm font-600 text-white/80">Смотреть в ВКонтакте</span>
+          </div>
+        </div>
+      </a>
+            <a href="https://vk.ru/opticasouth" target="_blank" rel="noopener" class="catalog-card group relative rounded-3xl overflow-hidden border border-slate-100 bg-white hover:border-sky-200 shadow-[0_20px_50px_rgba(15,23,42,0.05)] hover:shadow-[0_25px_60px_rgba(2,132,199,0.12)] transition-all duration-500 hover:-translate-y-1 aspect-[4/5] flex flex-col justify-end">
+        <div class="absolute inset-0">
+          <img src="./images/catalog_lenses.jpg" alt="Линзы и уход" class="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105" />
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/30 to-transparent"></div>
+        </div>
+        <div class="relative p-7 flex flex-col gap-3">
+          <div class="flex gap-2 flex-wrap">
+            <span class="text-xs font-700 uppercase tracking-wider bg-white/15 backdrop-blur-sm text-white px-3 py-1.5 rounded-full border border-white/20">Европейское качество</span>
+            <span class="text-xs font-700 bg-sky-400/20 text-sky-200 backdrop-blur-sm px-3 py-1.5 rounded-full border border-sky-400/20">Комплексный уход</span>
+          </div>
+          <h3 class="text-2xl font-800 text-white">Линзы и уход</h3>
+          <p class="text-sm text-white/70 leading-relaxed">Контактные линзы ведущих брендов Европы, растворы, капли, футляры и салфетки</p>
+          <div class="flex items-center gap-3 mt-1">
+            <div class="cta-circle w-9 h-9 rounded-full border border-white/30 bg-white/10 flex items-center justify-center">
+              <i data-lucide="arrow-up-right" class="w-4 h-4 text-white"></i>
+            </div>
+            <span class="text-sm font-600 text-white/80">Смотреть в ВКонтакте</span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+<section id="services" class="py-24 px-4 bg-white">
+  <div class="max-w-7xl mx-auto">
+    <div class="grid lg:grid-cols-2 gap-8">
+            <div>
+        <div class="inline-flex items-center gap-2 bg-slate-50 border border-slate-200 px-4 py-2 rounded-full mb-7">
+          <i data-lucide="settings" class="w-4 h-4 text-slate-500"></i>
+          <span class="text-sm font-600 text-slate-600">Наши услуги</span>
+        </div>
+        <h2 class="text-3xl lg:text-4xl font-extrabold tracking-tight text-slate-900 mb-8">Что мы делаем</h2>
+        <div class="flex flex-col gap-3">
+          <div class="group flex items-center gap-4 p-5 rounded-2xl border border-slate-100 bg-white hover:bg-sky-50 hover:border-sky-100 transition-all duration-300 cursor-default">
+            <div class="w-11 h-11 rounded-2xl bg-sky-100 group-hover:bg-sky-600 flex items-center justify-center flex-shrink-0 transition-colors duration-300">
+              <i data-lucide="eye" class="w-5 h-5 text-sky-600 group-hover:text-white transition-colors duration-300"></i>
+            </div>
+            <div>
+              <div class="font-700 text-slate-800 text-sm">Проверка зрения</div>
+              <div class="text-xs text-slate-500 mt-0.5">Профессиональная диагностика на современном оборудовании</div>
+            </div>
+          </div>
+          <div class="group flex items-center gap-4 p-5 rounded-2xl border border-slate-100 bg-white hover:bg-sky-50 hover:border-sky-100 transition-all duration-300 cursor-default">
+            <div class="w-11 h-11 rounded-2xl bg-sky-100 group-hover:bg-sky-600 flex items-center justify-center flex-shrink-0 transition-colors duration-300">
+              <i data-lucide="zap" class="w-5 h-5 text-sky-600 group-hover:text-white transition-colors duration-300"></i>
+            </div>
+            <div>
+              <div class="font-700 text-slate-800 text-sm">Изготовление очков за 1 день</div>
+              <div class="text-xs text-slate-500 mt-0.5">Станки Essilor (Франция) — точность до 0.01 диоптрии</div>
+            </div>
+          </div>
+          <div class="group flex items-center gap-4 p-5 rounded-2xl border border-slate-100 bg-white hover:bg-sky-50 hover:border-sky-100 transition-all duration-300 cursor-default">
+            <div class="w-11 h-11 rounded-2xl bg-sky-100 group-hover:bg-sky-600 flex items-center justify-center flex-shrink-0 transition-colors duration-300">
+              <i data-lucide="palette" class="w-5 h-5 text-sky-600 group-hover:text-white transition-colors duration-300"></i>
+            </div>
+            <div>
+              <div class="font-700 text-slate-800 text-sm">Окраска и нанесение покрытий на линзы</div>
+              <div class="text-xs text-slate-500 mt-0.5">Антибликовые, фотохромные и тонированные покрытия</div>
+            </div>
+          </div>
+          <div class="group flex items-center gap-4 p-5 rounded-2xl border border-slate-100 bg-white hover:bg-sky-50 hover:border-sky-100 transition-all duration-300 cursor-default">
+            <div class="w-11 h-11 rounded-2xl bg-sky-100 group-hover:bg-sky-600 flex items-center justify-center flex-shrink-0 transition-colors duration-300">
+              <i data-lucide="wrench" class="w-5 h-5 text-sky-600 group-hover:text-white transition-colors duration-300"></i>
+            </div>
+            <div>
+              <div class="font-700 text-slate-800 text-sm">Ремонт и регулировка оправ</div>
+              <div class="text-xs text-slate-500 mt-0.5">Пайка, замена носоупоров, подгонка по форме лица</div>
+            </div>
+          </div>
+          <div class="group flex items-center gap-4 p-5 rounded-2xl border border-slate-100 bg-white hover:bg-sky-50 hover:border-sky-100 transition-all duration-300 cursor-default">
+            <div class="w-11 h-11 rounded-2xl bg-sky-100 group-hover:bg-sky-600 flex items-center justify-center flex-shrink-0 transition-colors duration-300">
+              <i data-lucide="circle-dot" class="w-5 h-5 text-sky-600 group-hover:text-white transition-colors duration-300"></i>
+            </div>
+            <div>
+              <div class="font-700 text-slate-800 text-sm">Подбор контактных линз</div>
+              <div class="text-xs text-slate-500 mt-0.5">Мягкие и жёсткие линзы, однодневные и длительного ношения</div>
+            </div>
+          </div>
+        </div>
+      </div>
+            <div id="promos" class="relative rounded-3xl p-10 overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-sky-950 text-white flex flex-col justify-between gap-8 min-h-[480px]">
+                <div class="absolute right-4 top-4 text-[140px] font-900 text-white/5 leading-none select-none pointer-events-none">%</div>
+        <div class="relative z-10">
+          <div class="inline-flex items-center gap-2 bg-white/10 border border-white/15 px-4 py-2 rounded-full mb-6">
+            <i data-lucide="tag" class="w-4 h-4 text-amber-400"></i>
+            <span class="text-sm font-600 text-white/90">Акции сезона</span>
+          </div>
+          <h2 class="text-3xl font-800 leading-tight mb-6">Специальные предложения для вас</h2>
+          <div class="flex flex-col gap-4">
+            <div class="flex items-start gap-4 bg-white/8 border border-white/10 rounded-2xl p-5">
+              <div class="text-4xl font-900 text-sky-400 leading-none flex-shrink-0">-15%</div>
+              <div>
+                <div class="font-700 text-base">На вторую пару очков</div>
+                <div class="text-sm text-white/60 mt-1 leading-relaxed">При покупке двух пар очков в один визит скидка 15% на менее дорогую пару</div>
+              </div>
+            </div>
+            <div class="flex items-start gap-4 bg-white/8 border border-white/10 rounded-2xl p-5">
+              <div class="text-4xl font-900 text-amber-400 leading-none flex-shrink-0">-10%</div>
+              <div>
+                <div class="font-700 text-base">Скидка постоянным клиентам</div>
+                <div class="text-sm text-white/60 mt-1 leading-relaxed">При повторном заказе вы получаете 10% скидку на все виды оправ и линз</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button onclick="openCallbackModal()" class="relative z-10 w-full bg-white text-slate-900 hover:bg-sky-50 font-700 py-4 rounded-2xl transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-black/20">
+          Зафиксировать скидку →
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="py-24 px-4 bg-[#F8FAFC]">
+  <div class="max-w-7xl mx-auto">
+        <div class="flex flex-col items-center text-center mb-14">
+      <h2 class="text-3xl lg:text-4xl font-extrabold tracking-tight text-slate-900 mb-4">Почему нам доверяют</h2>
+      <p class="text-slate-500 text-lg max-w-lg">С 2019 года помогаем жителям Сочи видеть мир чётче</p>
+    </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-14">
+      <div class="bg-white rounded-3xl p-8 border border-slate-100 shadow-[0_20px_50px_rgba(15,23,42,0.04)] hover:shadow-[0_25px_60px_rgba(2,132,199,0.08)] transition-all duration-500 hover:-translate-y-1">
+        <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-sky-100 to-sky-200 flex items-center justify-center mb-6">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+            <circle cx="14" cy="14" r="11" stroke="#0284C7" stroke-width="2"/>
+            <path d="M14 8v6l4 3" stroke="#0284C7" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3 class="text-xl font-800 text-slate-900 mb-3">Оперативно</h3>
+        <p class="text-slate-500 leading-relaxed text-sm">Изготавливаем очки за 1 рабочий день на профессиональном оборудовании Essilor (Франция). Экстренное изготовление — за 2–3 часа.</p>
+      </div>
+      <div class="bg-white rounded-3xl p-8 border border-slate-100 shadow-[0_20px_50px_rgba(15,23,42,0.04)] hover:shadow-[0_25px_60px_rgba(2,132,199,0.08)] transition-all duration-500 hover:-translate-y-1">
+        <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-green-100 to-green-200 flex items-center justify-center mb-6">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+            <path d="M14 4L5 8v8c0 5 4.5 8.5 9 10 4.5-1.5 9-5 9-10V8L14 4Z" stroke="#16a34a" stroke-width="2" stroke-linejoin="round"/>
+            <path d="M10 14l3 3 5-5" stroke="#16a34a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h3 class="text-xl font-800 text-slate-900 mb-3">Надёжно</h3>
+        <p class="text-slate-500 leading-relaxed text-sm">Работаем только с сертифицированными европейскими производителями. Гарантия на все оправы и линзы. Честные цены без скрытых наценок.</p>
+      </div>
+      <div class="bg-white rounded-3xl p-8 border border-slate-100 shadow-[0_20px_50px_rgba(15,23,42,0.04)] hover:shadow-[0_25px_60px_rgba(2,132,199,0.08)] transition-all duration-500 hover:-translate-y-1">
+        <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-violet-100 to-violet-200 flex items-center justify-center mb-6">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+            <circle cx="14" cy="14" r="4" stroke="#7c3aed" stroke-width="2"/>
+            <circle cx="14" cy="14" r="9" stroke="#7c3aed" stroke-width="1.5" stroke-dasharray="3 3"/>
+            <path d="M14 5V3M14 25v-2M5 14H3M25 14h-2" stroke="#7c3aed" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3 class="text-xl font-800 text-slate-900 mb-3">Качественно</h3>
+        <p class="text-slate-500 leading-relaxed text-sm">Точность изготовления ±0.01 диоптрии. Весь ассортимент — от известных европейских производителей Carl Zeiss, Essilor, Silhouette и других.</p>
+      </div>
+    </div>
+        <div class="bg-white rounded-3xl border border-slate-100 px-8 py-8 shadow-sm">
+      <p class="text-center text-xs font-600 uppercase tracking-widest text-slate-400 mb-7">Официальные линзы ведущих производителей</p>
+      <div class="flex items-center justify-center gap-8 flex-wrap">
+        <img src="./images/Group_1mmmmmm.png" alt="Производитель линз" class="partner-logo h-10 object-contain" />
+        <img src="./images/Group_1ffffff.png" alt="Производитель линз" class="partner-logo h-10 object-contain" />
+        <img src="./images/Group_dddddd.png" alt="Производитель линз" class="partner-logo h-10 object-contain" />
+      </div>
+    </div>
+  </div>
+</section>
+<section id="vision" class="py-24 px-4 bg-white">
+  <div class="max-w-7xl mx-auto">
+        <div class="flex flex-col items-center text-center mb-12">
+      <div class="inline-flex items-center gap-2 bg-slate-50 border border-slate-200 px-4 py-2 rounded-full mb-5">
+        <i data-lucide="book-open" class="w-4 h-4 text-slate-500"></i>
+        <span class="text-sm font-600 text-slate-600">Энциклопедия зрения</span>
+      </div>
+      <h2 class="text-3xl lg:text-4xl font-extrabold tracking-tight text-slate-900 mb-4">Когда нужно носить очки?</h2>
+      <p class="text-slate-500 text-lg max-w-xl">Выберите нарушение зрения, чтобы узнать подробнее</p>
+    </div>
+        <div class="grid grid-cols-2 sm:flex sm:flex-wrap sm:justify-center gap-2.5 mb-10 max-w-xl mx-auto px-2" id="vision-tabs">
+      <button class="tab-btn active px-3 sm:px-5 py-3 rounded-2xl sm:rounded-full text-xs sm:text-sm font-700 border border-slate-200 text-slate-600 hover:border-slate-900 text-center transition-all shadow-sm" data-tab="myopia">Близорукость</button>
+      <button class="tab-btn px-3 sm:px-5 py-3 rounded-2xl sm:rounded-full text-xs sm:text-sm font-700 border border-slate-200 text-slate-600 hover:border-slate-900 text-center transition-all shadow-sm" data-tab="farsight">Дальнозоркость</button>
+      <button class="tab-btn px-3 sm:px-5 py-3 rounded-2xl sm:rounded-full text-xs sm:text-sm font-700 border border-slate-200 text-slate-600 hover:border-slate-900 text-center transition-all shadow-sm" data-tab="astig">Астигматизм</button>
+      <button class="tab-btn px-3 sm:px-5 py-3 rounded-2xl sm:rounded-full text-xs sm:text-sm font-700 border border-slate-200 text-slate-600 hover:border-slate-900 text-center transition-all shadow-sm" data-tab="presby">Пресбиопия</button>
+    </div>
+        <div id="vision-panels">
+      <div class="tab-panel active" data-panel="myopia">
+        <div class="grid md:grid-cols-2 gap-8 items-center">
+          <div class="rounded-3xl overflow-hidden aspect-[4/3] border border-slate-100 shadow-sm">
+            <img src="./images/18269.jpg" alt="Близорукость" class="vision-img" />
+          </div>
+          <div class="flex flex-col gap-5">
+            <h3 class="text-2xl font-800 text-slate-900">Близорукость (миопия)</h3>
+            <p class="text-slate-600 leading-relaxed">При близорукости изображения удалённых предметов фокусируются перед сетчаткой, а не на ней. Человек хорошо видит вблизи, но плохо — вдаль. Это самое распространённое нарушение рефракции в мире.</p>
+            <p class="text-slate-600 leading-relaxed">Назначаются рассеивающие (минусовые) линзы. Современные тонкие минеральные и органические линзы с асферическим дизайном делают очки лёгкими и незаметными.</p>
+            <div class="flex items-start gap-3 bg-sky-50 border border-sky-100 rounded-2xl p-5">
+              <i data-lucide="user-check" class="w-5 h-5 text-sky-600 flex-shrink-0 mt-0.5"></i>
+              <div>
+                <div class="font-700 text-sm text-sky-800 mb-1">Совет офтальмолога</div>
+                <div class="text-sm text-sky-700 leading-relaxed">Проверяйте зрение раз в год. При прогрессировании миопии у детей возможна ортокератология.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-panel" data-panel="farsight">
+        <div class="grid md:grid-cols-2 gap-8 items-center">
+          <div class="rounded-3xl overflow-hidden aspect-[4/3] border border-slate-100 shadow-sm">
+            <img src="./images/18267.jpg" alt="Дальнозоркость" class="vision-img" />
+          </div>
+          <div class="flex flex-col gap-5">
+            <h3 class="text-2xl font-800 text-slate-900">Дальнозоркость (гиперметропия)</h3>
+            <p class="text-slate-600 leading-relaxed">При дальнозоркости фокус изображения формируется за сетчаткой. Вблизи видно хуже, вдаль — лучше. Часто сопровождается головными болями и усталостью глаз при длительной работе.</p>
+            <p class="text-slate-600 leading-relaxed">Корректируется собирающими (плюсовыми) линзами. Прогрессивные линзы позволяют видеть на всех расстояниях без смены очков.</p>
+            <div class="flex items-start gap-3 bg-sky-50 border border-sky-100 rounded-2xl p-5">
+              <i data-lucide="user-check" class="w-5 h-5 text-sky-600 flex-shrink-0 mt-0.5"></i>
+              <div>
+                <div class="font-700 text-sm text-sky-800 mb-1">Совет офтальмолога</div>
+                <div class="text-sm text-sky-700 leading-relaxed">Детям до 16 лет рекомендуется ежегодная проверка, так как слабая гиперметропия часто не ощущается.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-panel" data-panel="astig">
+        <div class="grid md:grid-cols-2 gap-8 items-center">
+          <div class="rounded-3xl overflow-hidden aspect-[4/3] border border-slate-100 shadow-sm">
+            <img src="./images/18273.jpg" alt="Астигматизм" class="vision-img" />
+          </div>
+          <div class="flex flex-col gap-5">
+            <h3 class="text-2xl font-800 text-slate-900">Астигматизм</h3>
+            <p class="text-slate-600 leading-relaxed">Неправильная форма роговицы или хрусталика приводит к тому, что лучи света фокусируются в разных точках. Изображение получается размытым, искажённым или двоящимся на всех расстояниях.</p>
+            <p class="text-slate-600 leading-relaxed">Корригируется цилиндрическими или торическими линзами. Для контактных линз используются специальные торические линзы с маркерами ориентации.</p>
+            <div class="flex items-start gap-3 bg-sky-50 border border-sky-100 rounded-2xl p-5">
+              <i data-lucide="user-check" class="w-5 h-5 text-sky-600 flex-shrink-0 mt-0.5"></i>
+              <div>
+                <div class="font-700 text-sm text-sky-800 mb-1">Совет офтальмолога</div>
+                <div class="text-sm text-sky-700 leading-relaxed">Астигматизм часто сочетается с миопией или гиперметропией. Важно подобрать комбинированные линзы.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-panel" data-panel="presby">
+        <div class="grid md:grid-cols-2 gap-8 items-center">
+          <div class="rounded-3xl overflow-hidden aspect-[4/3] border border-slate-100 shadow-sm">
+            <img src="./images/2150801446.jpg" alt="Пресбиопия" class="vision-img" />
+          </div>
+          <div class="flex flex-col gap-5">
+            <h3 class="text-2xl font-800 text-slate-900">Пресбиопия («возрастная» дальнозоркость)</h3>
+            <p class="text-slate-600 leading-relaxed">После 40 лет хрусталик глаза постепенно теряет эластичность, и человек начинает хуже видеть вблизи. Это естественный физиологический процесс, не патология.</p>
+            <p class="text-slate-600 leading-relaxed">Решение — прогрессивные линзы, которые обеспечивают чёткое зрение на всех расстояниях: вдаль, на среднем расстоянии и вблизи. Без видимой границы между зонами.</p>
+            <div class="flex items-start gap-3 bg-sky-50 border border-sky-100 rounded-2xl p-5">
+              <i data-lucide="user-check" class="w-5 h-5 text-sky-600 flex-shrink-0 mt-0.5"></i>
+              <div>
+                <div class="font-700 text-sm text-sky-800 mb-1">Совет офтальмолога</div>
+                <div class="text-sm text-sky-700 leading-relaxed">Прогрессивные линзы Essilor Varilux — лучшее решение. Наши специалисты помогут с подбором и адаптацией.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="contacts" class="py-24 px-4 bg-[#F8FAFC]">
+  <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-14 items-start">
+        <div>
+      <div class="inline-flex items-center gap-2 bg-white border border-slate-200 px-4 py-2 rounded-full mb-7">
+        <i data-lucide="store" class="w-4 h-4 text-slate-500"></i>
+        <span class="text-sm font-600 text-slate-600">О салоне</span>
+      </div>
+      <h2 class="text-3xl lg:text-4xl font-extrabold tracking-tight text-slate-900 mb-6">Оптика Юг — с 2019 года в Сочи</h2>
+      <p class="text-slate-600 leading-relaxed mb-5">Наш салон оптики расположен в гостинице «Магнолия» на Курортном проспекте. Мы предлагаем полный спектр услуг: от профессиональной проверки зрения до изготовления очков по рецепту за один рабочий день.</p>
+      <p class="text-slate-600 leading-relaxed mb-8">Работаем с ведущими европейскими производителями оправ и линз — Essilor, Carl Zeiss, Silhouette, Rodenstock. Наши мастера имеют многолетний опыт и регулярно проходят обучение у партнёров.</p>
+            <div class="flex flex-col gap-4">
+        <div class="flex items-center gap-4 p-5 bg-white rounded-2xl border border-slate-100">
+          <div class="w-10 h-10 rounded-xl bg-sky-50 flex items-center justify-center flex-shrink-0">
+            <i data-lucide="map-pin" class="w-5 h-5 text-sky-600"></i>
+          </div>
+          <div>
+            <div class="text-xs text-slate-400 font-500">Адрес</div>
+            <div class="font-600 text-slate-800 text-sm">г. Сочи, Курортный пр-т, д. 50 (гостиница «Магнолия»)</div>
+          </div>
+        </div>
+        <div class="flex items-center gap-4 p-5 bg-white rounded-2xl border border-slate-100">
+          <div class="w-10 h-10 rounded-xl bg-sky-50 flex items-center justify-center flex-shrink-0">
+            <i data-lucide="clock" class="w-5 h-5 text-sky-600"></i>
+          </div>
+          <div>
+            <div class="text-xs text-slate-400 font-500">График работы</div>
+            <div class="font-600 text-slate-800 text-sm">С 10:00 до 19:00 без выходных</div>
+          </div>
+        </div>
+        <div class="flex items-center gap-4 p-5 bg-white rounded-2xl border border-slate-100">
+          <div class="w-10 h-10 rounded-xl bg-sky-50 flex items-center justify-center flex-shrink-0">
+            <i data-lucide="phone" class="w-5 h-5 text-sky-600"></i>
+          </div>
+          <div>
+            <div class="text-xs text-slate-400 font-500">Телефоны</div>
+            <a href="tel:+79884036442" class="font-700 text-slate-800 text-sm block hover:text-sky-600 transition-colors">+7 (988) 403-64-42 — Оптика</a>
+            <a href="tel:+79951239686" class="font-700 text-slate-800 text-sm block hover:text-sky-600 transition-colors">+7 (995) 123-96-86 — Мастер</a>
+          </div>
+        </div>
+      </div>
+    </div>
+        <div class="bg-white rounded-3xl border border-slate-100 shadow-[0_20px_50px_rgba(15,23,42,0.05)] p-8 lg:p-10">
+      <h3 class="text-2xl font-800 text-slate-900 mb-2">Напишите нам</h3>
+      <p class="text-slate-500 text-sm mb-8 leading-relaxed">Оставьте заявку и мы свяжемся с вами в течение 15 минут</p>
+      <form id="contact-form-main" class="flex flex-col gap-4">
+        <div>
+          <label class="text-xs font-600 text-slate-500 mb-1.5 block">Ваше имя</label>
+          <input type="text" name="name" placeholder="Например, Алексей" required
+            class="w-full bg-slate-50 border border-slate-200 rounded-2xl px-5 py-4 text-slate-800 text-sm font-500 placeholder-slate-400 transition-all duration-200" />
+        </div>
+        <div>
+          <label class="text-xs font-600 text-slate-500 mb-1.5 block">Номер телефона</label>
+          <input type="tel" name="phone" placeholder="+7 (___) ___-__-__" required
+            class="w-full bg-slate-50 border border-slate-200 rounded-2xl px-5 py-4 text-slate-800 text-sm font-500 placeholder-slate-400 transition-all duration-200" />
+        </div>
+        <div>
+          <label class="text-xs font-600 text-slate-500 mb-1.5 block">Опишите задачу или вопрос</label>
+          <textarea name="message" rows="4" placeholder="Нужны очки по рецепту, хочу проверить зрение..."
+            class="w-full bg-slate-50 border border-slate-200 rounded-2xl px-5 py-4 text-slate-800 text-sm font-500 placeholder-slate-400 transition-all duration-200 resize-none"></textarea>
+        </div>
+        <button type="submit" id="main-form-submit"
+          class="w-full bg-sky-600 hover:bg-sky-700 text-white font-700 py-4 rounded-2xl transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-sky-500/25 flex items-center justify-center gap-2">
+          <span>Отправить заявку</span>
+          <i data-lucide="send" class="w-4 h-4"></i>
+        </button>
+        <p class="text-center text-xs text-slate-400">Нажимая кнопку, вы соглашаетесь с обработкой персональных данных</p>
+      </form>
+    </div>
+  </div>
+</section>
+<footer class="bg-[#0B1120] text-white py-14 px-4">
+  <div class="max-w-7xl mx-auto">
+    <div class="grid md:grid-cols-3 gap-10 mb-10">
+            <div>
+        <div class="flex items-center gap-3 mb-4">
+          <img src="./images/photo_2024-04-24_15-11-32_1.png" alt="Оптика Юг" class="h-9 object-contain brightness-200" />
+        </div>
+        <p class="text-slate-400 text-sm leading-relaxed">Премиальный салон оптики в Сочи. Изготовление очков за 1 день. Европейские бренды. Профессиональная проверка зрения.</p>
+      </div>
+            <div>
+        <div class="text-xs font-700 uppercase tracking-widest text-slate-500 mb-4">Контакты</div>
+        <div class="flex flex-col gap-3">
+          <div class="flex items-start gap-3">
+            <i data-lucide="map-pin" class="w-4 h-4 text-slate-500 mt-0.5 flex-shrink-0"></i>
+            <span class="text-sm text-slate-300 leading-snug">г. Сочи, Курортный пр-т, д. 50<br />(гостиница «Магнолия»)</span>
+          </div>
+          <div class="flex items-center gap-3">
+            <i data-lucide="clock" class="w-4 h-4 text-slate-500 flex-shrink-0"></i>
+            <span class="text-sm text-slate-300">с 10:00 до 19:00, без выходных</span>
+          </div>
+        </div>
+      </div>
+            <div>
+        <div class="text-xs font-700 uppercase tracking-widest text-slate-500 mb-4">Телефоны</div>
+        <div class="flex flex-col gap-4">
+          <div>
+            <div class="text-xs text-slate-500 mb-1">Оптика</div>
+            <a href="tel:+79884036442" class="text-lg font-700 text-white hover:text-sky-400 transition-colors">+7 (988) 403-64-42</a>
+          </div>
+          <div>
+            <div class="text-xs text-slate-500 mb-1">Мастер</div>
+            <a href="tel:+79951239686" class="text-lg font-700 text-white hover:text-sky-400 transition-colors">+7 (995) 123-96-86</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="border-t border-white/8 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
+      <p class="text-xs text-slate-500">© 2024–2026 Оптика Юг. Все права защищены.</p>
+      <button onclick="openCallbackModal()" class="text-xs font-600 text-sky-400 hover:text-sky-300 transition-colors">Оставить заявку →</button>
+    </div>
+  </div>
+</footer>
+<div class="fixed bottom-0 inset-x-0 z-30 md:hidden bg-white/90 backdrop-blur-lg border-t border-slate-200 p-3 flex gap-3">
+  <a href="tel:+79884036442" class="flex-1 flex items-center justify-center gap-2 bg-slate-100 hover:bg-slate-200 text-slate-800 font-700 text-sm py-3 rounded-2xl transition-colors">
+    <i data-lucide="phone-call" class="w-4 h-4"></i>
+    Позвонить
+  </a>
+  <button onclick="openCallbackModal()" class="flex-1 flex items-center justify-center gap-2 bg-sky-600 hover:bg-sky-700 text-white font-700 text-sm py-3 rounded-2xl transition-all duration-200">
+    <i data-lucide="calendar" class="w-4 h-4"></i>
+    Записаться
+  </button>
+</div>
+<div id="callback-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="callback-modal-title">
+  <div class="bg-white rounded-3xl shadow-2xl w-full max-w-md p-8 relative" onclick="event.stopPropagation()">
+    <button onclick="closeCallbackModal()" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-slate-100 hover:bg-slate-200 flex items-center justify-center transition-colors" aria-label="Закрыть">
+      <i data-lucide="x" class="w-4 h-4 text-slate-600"></i>
+    </button>
+    <div class="w-12 h-12 bg-sky-100 rounded-2xl flex items-center justify-center mb-6">
+      <i data-lucide="phone" class="w-6 h-6 text-sky-600"></i>
+    </div>
+    <h3 id="callback-modal-title" class="text-2xl font-800 text-slate-900 mb-2">Заказать звонок</h3>
+    <p class="text-slate-500 text-sm mb-7 leading-relaxed">Наши менеджеры свяжутся с вами для обсуждения деталей и подбора оптики</p>
+    <form id="callback-form" class="flex flex-col gap-4">
+      <div>
+        <label class="text-xs font-600 text-slate-500 mb-1.5 block">Номер телефона *</label>
+        <input type="tel" name="phone" id="callback-phone" placeholder="+7 (___) ___-__-__" required
+          class="w-full bg-slate-50 border border-slate-200 rounded-2xl px-5 py-4 text-slate-800 text-sm font-500 placeholder-slate-400 transition-all duration-200" />
+      </div>
+      <div>
+        <label class="text-xs font-600 text-slate-500 mb-1.5 block">Имя (необязательно)</label>
+        <input type="text" name="name" placeholder="Как к вам обращаться?"
+          class="w-full bg-slate-50 border border-slate-200 rounded-2xl px-5 py-4 text-slate-800 text-sm font-500 placeholder-slate-400 transition-all duration-200" />
+      </div>
+      <button type="submit" id="callback-form-submit"
+        class="w-full bg-slate-900 hover:bg-sky-600 text-white font-700 py-4 rounded-2xl transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-sky-500/25">
+        Заказать звонок
+      </button>
+      <p class="text-center text-xs text-slate-400">Нажимая кнопку, вы соглашаетесь с обработкой персональных данных</p>
+    </form>
+  </div>
+</div>
+<div id="thankyou-modal" class="modal-overlay" role="dialog" aria-modal="true">
+  <div class="bg-white rounded-3xl shadow-2xl w-full max-w-sm p-10 text-center relative" onclick="event.stopPropagation()">
+    <button onclick="closeThankYouModal()" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-slate-100 hover:bg-slate-200 flex items-center justify-center transition-colors" aria-label="Закрыть">
+      <i data-lucide="x" class="w-4 h-4 text-slate-600"></i>
+    </button>
+        <div class="flex justify-center mb-6">
+      <svg width="64" height="64" viewBox="0 0 52 52">
+        <circle class="checkmark-circle" cx="26" cy="26" r="24" fill="none" stroke="#16a34a" stroke-width="2"/>
+        <path class="checkmark-path" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8" stroke="#16a34a" stroke-width="2.5" stroke-linecap="round"/>
+      </svg>
+    </div>
+    <h3 class="text-2xl font-800 text-slate-900 mb-3">Заявка принята!</h3>
+    <p class="text-slate-500 text-sm leading-relaxed mb-8">Спасибо за обращение в «Оптику Юг». Наш специалист свяжется с вами в течение 15 минут.</p>
+    <button onclick="closeThankYouModal()" class="w-full bg-slate-900 hover:bg-sky-600 text-white font-700 py-4 rounded-2xl transition-all duration-300">
+      Отлично, спасибо!
+    </button>
+  </div>
+</div>
+<script>
+(function() {
+  var gtmFired = false;
+  function initGTM() {
+    if (gtmFired) return;
+    gtmFired = true;
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-PSF4S2BD');
+  }
+  var events=['scroll','mousemove','touchstart','click','keydown'];
+  function onInteract(){initGTM();events.forEach(function(e){window.removeEventListener(e,onInteract,{passive:true});});}
+  events.forEach(function(e){window.addEventListener(e,onInteract,{passive:true,once:true});});
+  if('requestIdleCallback'in window){requestIdleCallback(function(){setTimeout(initGTM,3500);});}else{setTimeout(initGTM,4000);}
+})();
+</script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  'use strict';
+  if (window.lucide) lucide.createIcons();
+  var headerInner = document.getElementById('header-inner');
+  window.addEventListener('scroll', function () {
+    if (window.scrollY > 20) {
+      headerInner.classList.add('header-scrolled');
+    } else {
+      headerInner.classList.remove('header-scrolled');
+    }
+  }, { passive: true });
+  var burgerBtn = document.getElementById('burger-btn');
+  var mobileMenu = document.getElementById('mobile-menu');
+  burgerBtn.addEventListener('click', function () {
+    var isOpen = mobileMenu.classList.contains('open');
+    if (isOpen) {
+      mobileMenu.classList.remove('open');
+      mobileMenu.classList.add('hidden');
+      burgerBtn.classList.remove('open');
+      burgerBtn.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
+    } else {
+      mobileMenu.classList.remove('hidden');
+      requestAnimationFrame(function () {
+        mobileMenu.classList.add('open');
+      });
+      burgerBtn.classList.add('open');
+      burgerBtn.setAttribute('aria-expanded', 'true');
+      document.body.style.overflow = 'hidden';
+    }
+  });
+  document.querySelectorAll('.mobile-nav-link').forEach(function (link) {
+    link.addEventListener('click', function () {
+      mobileMenu.classList.remove('open');
+      mobileMenu.classList.add('hidden');
+      burgerBtn.classList.remove('open');
+      burgerBtn.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
+    });
+  });
+  var tabBtns = document.querySelectorAll('.tab-btn');
+  var tabPanels = document.querySelectorAll('.tab-panel');
+  tabBtns.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var target = btn.dataset.tab;
+      tabBtns.forEach(function (b) { b.classList.remove('active'); });
+      tabPanels.forEach(function (p) { p.classList.remove('active'); });
+      btn.classList.add('active');
+      var targetPanel = document.querySelector('.tab-panel[data-panel="' + target + '"]');
+      if (targetPanel) targetPanel.classList.add('active');
+    });
+  });
+  var callbackModal = document.getElementById('callback-modal');
+  var thankyouModal = document.getElementById('thankyou-modal');
+  window.openCallbackModal = function () {
+    callbackModal.classList.add('open');
+    document.body.style.overflow = 'hidden';
+    setTimeout(function () {
+      var phoneInput = document.getElementById('callback-phone');
+      if (phoneInput) phoneInput.focus();
+    }, 200);
+  };
+  window.closeCallbackModal = function () {
+    callbackModal.classList.remove('open');
+    document.body.style.overflow = '';
+  };
+  window.closeThankYouModal = function () {
+    thankyouModal.classList.remove('open');
+    document.body.style.overflow = '';
+  };
+  callbackModal.addEventListener('click', function (e) {
+    if (e.target === callbackModal) closeCallbackModal();
+  });
+  thankyouModal.addEventListener('click', function (e) {
+    if (e.target === thankyouModal) closeThankYouModal();
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') {
+      closeCallbackModal();
+      closeThankYouModal();
+      if (mobileMenu.classList.contains('open')) {
+        mobileMenu.classList.remove('open');
+        mobileMenu.classList.add('hidden');
+        burgerBtn.classList.remove('open');
+        document.body.style.overflow = '';
+      }
+    }
+  });
+  function handleFormSubmit(form, submitBtn, extraAction) {
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      e.stopImmediatePropagation();
+      var originalText = submitBtn.textContent.trim();
+      submitBtn.disabled = true;
+      submitBtn.classList.add('btn-loading');
+      submitBtn.textContent = 'Отправка...';
+      var formData = new FormData(form);
+      var payload = {};
+      formData.forEach(function (val, key) { payload[key] = val; });
+      function attemptSend(endpoint, isJson) {
+        var opts = { method: 'POST' };
+        if (isJson) {
+          opts.headers = { 'Content-Type': 'application/json' };
+          opts.body = JSON.stringify(payload);
+        } else {
+          opts.body = formData;
+        }
+        return fetch(endpoint, opts);
+      }
+      attemptSend('./api/send', true)
+        .then(function (res) {
+          if (res.status === 404) return attemptSend('./send.php', false);
+          return res;
+        })
+        .then(function (res) {
+          return res.json().catch(function () { return { status: 'ok' }; });
+        })
+        .catch(function () { return { status: 'ok' }; })
+        .finally(function () {
+          form.reset();
+          submitBtn.disabled = false;
+          submitBtn.classList.remove('btn-loading');
+          submitBtn.textContent = originalText;
+          if (extraAction) extraAction();
+          thankyouModal.classList.add('open');
+          document.body.style.overflow = 'hidden';
+          var circle = thankyouModal.querySelector('.checkmark-circle');
+          var path = thankyouModal.querySelector('.checkmark-path');
+          if (circle && path) {
+            circle.style.animation = 'none';
+            path.style.animation = 'none';
+            requestAnimationFrame(function () {
+              circle.style.animation = '';
+              path.style.animation = '';
+            });
+          }
+        });
+    }, true);
+  }
+  var callbackForm = document.getElementById('callback-form');
+  var callbackSubmitBtn = document.getElementById('callback-form-submit');
+  if (callbackForm && callbackSubmitBtn) {
+    handleFormSubmit(callbackForm, callbackSubmitBtn, function () {
+      closeCallbackModal();
+    });
+  }
+  var mainForm = document.getElementById('contact-form-main');
+  var mainSubmitBtn = document.getElementById('main-form-submit');
+  if (mainForm && mainSubmitBtn) {
+    handleFormSubmit(mainForm, mainSubmitBtn, null);
+  }
+});
+</script>
+</body>
+</html>
